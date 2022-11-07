@@ -1,0 +1,20 @@
+@media (min-width: 992px) {
+  /* INDEX */
+  .grid-container-id {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* PROJECT-CHARTER.html */
+  .grid-container-pc {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 2fr 1fr 1fr;
+  }
+
+  .timeline {
+    grid-column: 3/4;
+    grid-row: 1/3;
+  }
+}

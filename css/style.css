@@ -1,0 +1,110 @@
+/* INDEX.html */
+
+li {
+  list-style-position: inside;
+  list-style-type: none;
+}
+
+li:before {
+  content: "-";
+  position: absolute;
+  text-indent: -12px;
+}
+
+.bg-gray {
+  background-color: #f8f9fa;
+}
+
+.banner-img {
+  object-fit: cover;
+  width: 100%;
+  max-height: 500px;
+}
+
+/* navigation bar */
+#nav-bar img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+}
+
+/* about */
+
+#personal-info {
+  background-color: #f1f3f5;
+}
+
+.social-network .icon {
+  height: 24px;
+  width: 24px;
+}
+
+/* jobs */
+.list-color {
+  list-style: none;
+  position: relative;
+}
+
+.list-color::before {
+  content: "";
+  background-color: #0d6efd;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: 9px;
+  left: 0px;
+}
+
+.job-ic {
+  scale: calc(2.5);
+}
+
+.level-fill {
+  background-color: #0d6efd;
+  height: 5px;
+  width: 48px;
+}
+
+.level-no-fill {
+  background-color: #dee2e6;
+  height: 5px;
+  width: 48px;
+}
+
+.favorite-ic {
+  scale: calc(1.5);
+  height: 30px;
+  width: 30px;
+}
+
+/* certificate */
+
+#certificate img {
+  width: 250px;
+  height: auto;
+  object-fit: cover;
+}
+
+/* project */
+
+.project-img {
+  width: 100%;
+}
+
+.table-height {
+  height: 360px;
+}
+
+/* PROJECT CHARTER */
+
+.timeline-ic {
+  width: 35px;
+  height: 35px;
+}
+
+.border-dotted {
+  border-bottom-style: dotted;
+  border-color: #0dcaf0;
+  border-width: 2px;
+}

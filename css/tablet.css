@@ -1,0 +1,15 @@
+@media (max-width: 992px) {
+  /* INDEX */
+  .grid-container-id {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* PROJECT-CHARTER.html */
+  .grid-container-pc {
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr;
+  }
+}
